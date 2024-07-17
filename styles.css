@@ -1,0 +1,85 @@
+body{
+    background-color: #eee;
+}
+
+.error {
+    /* padding: 10px; */
+    /* color: crimson; */
+    border: 6px solid crimson;
+    /* width: 50%; */
+}
+
+.success{
+    /* padding: 10px; */
+    /* color: limegreen; */
+    border: 6px solid limegreen;
+    /* width: 50%; */
+}
+
+li{
+    list-style-type: none;
+    max-width: 200px;
+    padding: 8px;
+    margin: 10px auto;
+    background: #eee;
+    border: 1px dotted #ddd;
+}
+
+button{
+    display: block;
+    margin: 2px auto;
+    background: crimson;
+    color: white;
+    border: 0;
+    padding: 6px 10px;
+}
+
+.popup-wrapper{
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.popup{
+    font-family: arial;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background: white;
+    position: relative;
+
+}
+
+.popup a{
+    background: crimson;
+    color: white;
+    text-decoration: none;
+    padding: 6px 10pX;
+}
+
+.popup-close{
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+}
+
+form{
+    max-width: 200px;
+    margin: 40px auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    padding: 4px;
+}
